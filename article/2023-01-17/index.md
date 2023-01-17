@@ -19,13 +19,19 @@ date: "2020-01-10 22:46:30"
   - rule 관련링크: [rule-link](https://github.com/facebook/create-react-app/blob/main/packages/eslint-config-react-app/index.js)
 
 - eslint-config-airbnb: [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+
   - peerDependencies
     - eslint-plugin-import
     - eslint-plugin-jsx-a11y
     - eslint-plugin-react
     - eslint-plugin-react-hooks
   - rules: eslint-config-airbnb-base + eslint-config-airbnb
+
 - eslint-config-standard: [eslint-config-standard](https://github.com/standard/eslint-config-standard)
+  - peerDependencies
+    - eslint-plugin-import
+    - eslint-plugin-n
+    - eslint-plugin-promise
   - rules: [rule-link](https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json)
 
 ## ESLint와 Perttier를 역할별 용도
