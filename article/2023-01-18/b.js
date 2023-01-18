@@ -1580,5 +1580,7 @@ const e = b.reduce(
   }),
   {}
 );
-console.log(JSON.stringify(e));
-fs.writeFileSync("./b.txt", JSON.stringify(e), "utf-8");
+
+fs.writeFile("./b.json", JSON.stringify(e, null, 2), (err) => {
+  if (err) console.log(err);
+});

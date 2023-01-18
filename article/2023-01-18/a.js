@@ -1009,6 +1009,8 @@ const e = b.reduce(
   {}
 );
 
-console.log(JSON.stringify(e));
+fs.writeFile("./a.json", JSON.stringify(e, null, 2), (err) => {
+  if (err) console.log(err);
+});
 
-fs.writeFileSync("./a.txt", JSON.stringify(e), "utf-8");
+/// https://jsoncompare.org/
