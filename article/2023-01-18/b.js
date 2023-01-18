@@ -1,3 +1,4 @@
+const fs = require("fs");
 const a = {
   "accessor-pairs": "off",
   "array-callback-return": [
