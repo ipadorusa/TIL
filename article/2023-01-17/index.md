@@ -34,7 +34,7 @@ date: "2023-01-17 22:46:30"
     - eslint-plugin-promise
   - rules: [rule-link](https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json)
 
-## ESLint와 Perttier를 역할별 용도
+## ESLint와 Prettier를 역할별 용도
 
 ### eslint-config-prettier
 
