@@ -14,7 +14,7 @@ function generateArray(startNumber: number, length: number): number[] {
 # 주어진 배열에서 시작 인덱스부터 배열의 마지막 숫자까지 합 구하기
 
 ```typescript
-function sumFromIndex(number[], startIndex: number): number {
+function sumFromIndex(array:number[], startIndex: number): number {
   const sum = array.slice(startIndex - 1).reduce((acc, cur) => acc + cur, 0);
   return sum;
 }
